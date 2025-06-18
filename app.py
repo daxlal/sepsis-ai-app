@@ -17,7 +17,6 @@ import joblib
 clf = joblib.load("sepsis_model.pkl")
 
 # Evaluate model
-y_pred = clf.predict(X_test)
 print("📊 Model Performance:")
 print(classification_report(y_test, y_pred))
 
