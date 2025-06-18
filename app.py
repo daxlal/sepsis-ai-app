@@ -42,7 +42,6 @@ example_input = [110, 160, 2.3, 85, 75, 130, 5.2, 16000, 55, 350, 42]
 print("🔍 Example Prediction:")
 print(predict_risk(example_input))
 
-!pip install gradio
 
 import gradio as gr
 
@@ -73,7 +72,6 @@ gr.Interface(
     description="Enter biomarker values to predict sepsis risk level."
 ).launch()
 
-!pip install gradio
 
 import gradio as gr
 
