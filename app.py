@@ -41,4 +41,4 @@ gr.Interface(
     outputs="text",
     title="🧬 Sepsis Risk Detector",
     description="Enter biomarker values to predict sepsis risk using AI."
-).launch(server_port=10000)
+).launch(server_name="0.0.0.0", server_port=10000)
